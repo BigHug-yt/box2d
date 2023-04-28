@@ -32,6 +32,6 @@ project "Box2D"
 		optimize "on"
 
 	filter "configurations:Dist"
-		runtime "Dist"
+		runtime "Release"
 		optimize "on"
 		symbols "off"
